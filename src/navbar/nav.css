@@ -1,0 +1,69 @@
+.searchandshop a{
+    color: black;
+}
+.header{
+    background: #fff;
+    height: 90px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.header h3{
+    padding-left: 50px;
+}
+.menu a{
+    margin-right: 40px;
+    color: black;
+    font-size: 14px;
+}
+.searchandshop{
+    margin-bottom: 5px;
+}
+.user{
+    padding-right: 100px;
+}
+.user img{
+    border-radius: 50%;
+}
+.bars{
+    display: none;
+}
+@media only screen and (max-width: 960px) {
+    .allnav{
+        padding-right: 585px ;
+    }
+    .menu{
+        display: none;
+    }
+    .searchandshop{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    .user img{
+        display: none;
+    }
+    .bars{
+        display: flex;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .allnav{
+        padding-right: 450px ;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .allnav{
+        padding-right: 410px ;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .allnav{
+        padding-right: 300px ;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .allnav{
+        padding-right: 230px ;
+    }
+}
